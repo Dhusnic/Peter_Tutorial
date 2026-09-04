@@ -1,0 +1,4 @@
+Create a single Python file that asks the user for `user_query` interactively in the CLI and sends it to ChatGPT using an API key hard-coded in the Python file.
+Keep the `system_prompt` and `user_prompt` static, with a little harmless sarcasm in both, while clearly instructing the LLM to answer the user's query.
+After the API call, print `user_query`, `system_prompt`, `user_prompt`, model name, input/output/total token usage, and the final LLM response in a clean summary.
+Use the official OpenAI Python SDK, real API response/token usage, proper error handling, and no extra files or unnecessary abstractions.
